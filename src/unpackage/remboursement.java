@@ -2,7 +2,7 @@
 package MonPackageEnJava;
 import java.util.Scanner;
 import java.util.function.*;
-class MaPremiereClasseEnJava {
+class remboursement.java {
 void main(String[] args){	
 int dep = 0;
 Fonction.Saisie(); //Saisie de l'utilisateur
