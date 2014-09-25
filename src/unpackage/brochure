@@ -2,8 +2,8 @@ package programme;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Brochure {
 // Attributs //
+public class Brochure {
 private String nom;
 private List<Tarif> listeTarifs;
 
