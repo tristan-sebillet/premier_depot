@@ -1,0 +1,40 @@
+package programme;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Brochure {
+// Attributs //
+private String nom;
+private List<Tarif> listeTarifs;
+
+// Accesseurs //
+public String getNom()
+{
+return nom;
+}
+public List<Tarif> getListeTarifs()
+{
+return listeTarifs;
+}	
+// Constructeurs //
+public Brochure()
+{
+nom = "Brochure du Taxi";
+listeTarifs = new ArrayList<Tarif>();
+}
+public Brochure(String nom, List<Tarif> listeTarifs)
+{
+this.nom = nom;
+this.listeTarifs = listeTarifs;
+}
+
+// Méthodes //
+public void AddTarif(Tarif tarif)
+{
+listeTarifs.add(tarif);
+}
+public void RmTarifByIndex(int index)
+{
+listeTarifs.remove(index);
+}//Fin RmTarifByIndex(int index)
+}
