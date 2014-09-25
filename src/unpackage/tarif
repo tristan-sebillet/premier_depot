@@ -1,0 +1,69 @@
+package programme;
+
+public class Tarif {
+// Attributs //
+private int departement;
+private double priseEnCharge;
+private double kmAllerRetourJSem;
+private double kmAllerSimpleJSem;
+private double kmAllerRetourNuitDim;
+private double kmAllerSimpleNuitDim;
+private double tarifHoraireJSem;
+private double tarifHoraireNuitDim;
+
+// Accesseurs //
+public double getDepartement()
+{
+return departement;
+}
+public double getPriseEnCharge()
+{
+return priseEnCharge;
+}
+public double getKmAllerRetourJSem()
+{
+return kmAllerRetourJSem;
+}
+public double getKmAllerSimpleJSem()
+{
+return kmAllerSimpleJSem;
+}
+public double getKmAllerRetourNuitDim()
+{
+return kmAlleRetourNuitDim;
+}
+public double getKmAllerSimpleNuitDim()
+{
+return kmAllerSimpleNuitDim;
+}
+public double getTarifHoraireJSem()
+{
+return tarifHoraireJSem;
+}	
+public double getTarifHoraireNuitDim()
+{
+return tarifHoraireNuitDim;
+}
+// Constructeurs //
+* Constructeur de la classe tarif, avec initialisation à partir de paramètres
+* @param Numéro du département [int]
+* @param Montant de la prise en charge [double]
+* @param Tarif kilométrique aller-retour lors d'un jour de semaine [double]
+* @param Tarif kilométrique aller simple lors d'un jour de semaine [double]
+* @param Tarif kilométrique aller-retour de nuit ou le dimanche [double]
+* @param Tarif kilométrique aller simple de nuit ou le dimanche [double]
+* @param Tarif horaire d'un jour de semaine [double]
+* @param Tarif horaire de nuit ou le dimanche [double]
+
+public Tarif(int departement, double priseEnCharge, double kmAllerRetourJSem, double kmAllerSimpleJSem, double kmAllerRetourNuitDim, double kmAllerSimpleNuitDim, double tarifHoraireJSem, double tarifHoraireNuitDim)
+{
+this.departement = departement;
+this.priseEnCharge = priseEnCharge;
+this.kmAllerRetourJSem = kmAllerRetourJSem;
+this.kmAllerSimpleJSem = kmAllerSimpleJSem;
+this.kmAllerRetourNuitDim = kmAllerRetourNuitDim;
+this.kmAllerSimpleNuitDim = kmAllerSimpleNuitDim;
+this.tarifHoraireJSem = tarifHoraireJSem;
+this.tarifHoraireNuitDim = tarifHoraireNuitDim;
+}
+}
